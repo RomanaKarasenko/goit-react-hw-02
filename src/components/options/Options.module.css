@@ -1,0 +1,21 @@
+.btn {
+  height: 70px;
+  width: 150px;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-right: 25px;
+}
+.optionscont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn:hover,
+.btn:focus {
+  background-color: #ff00ff;
+  color: #fff;
+  border-color: #ff00ff;
+  transform: scale(1.05);
+}
