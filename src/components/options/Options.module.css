@@ -12,8 +12,7 @@
   justify-content: center;
   align-items: center;
 }
-.btn:hover,
-.btn:focus {
+.btn:hover {
   background-color: #ff00ff;
   color: #fff;
   border-color: #ff00ff;
