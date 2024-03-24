@@ -1,9 +1,6 @@
 import styles from "./Feedback.module.css";
 
-function Feedback({ good, neutral, bad, total }) {
-  const positivePercentage =
-    total > 0 ? Math.round(((good + neutral) / total) * 100) : 0;
-
+function Feedback({ good, neutral, bad, total, positivePercentage }) {
   return (
     <ul className={styles.itemsStyle}>
       <li>
